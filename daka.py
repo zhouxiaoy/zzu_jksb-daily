@@ -24,7 +24,6 @@ import utils
 # 用于打卡的脚本
 def sign_in(id, pwd, name="Turing", check_today=1):
     '''
-
     :param id: 学号
     :param pwd: 密码
     :param name: 姓名提示，默认为Turing
@@ -242,5 +241,3 @@ def sign_in(id, pwd, name="Turing", check_today=1):
 
     r.close()
     del (r)
-
-
