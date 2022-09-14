@@ -42,7 +42,6 @@ def my_log(filename: str):
 # 获取所有的img 默认返回img url列表
 def get_img_urls(html, index=None):
     '''
-
     :param html: 获取的网页文本
     :param index: 需要的url索引
     :return:
@@ -117,7 +116,6 @@ def chineseNumber2Num(strNum: str) -> str:
 # 发送邮件的函数
 def mail(mail_text, mail_to, MAIL_USER, MAIL_PWD):
     '''
-
     :param mail_text: 发送的文本
     :param mail_to: 发送给~
     :param MAIL_USER: 发送的邮箱
@@ -139,6 +137,3 @@ def mail(mail_text, mail_to, MAIL_USER, MAIL_PWD):
     send.send_message(msg)
     # quit QQ EMail
     send.quit()
-
-
-
