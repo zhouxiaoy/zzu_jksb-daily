@@ -6,7 +6,7 @@ on:
     workflow_dispatch:
     # 设定国际标准时间19点33--此处是北京时间凌晨3点33左右。国际标准时间，等于北京时间减去 8 个小时
     schedule:
-    - cron: '33 19 * * *'
+    - cron: '33 16 * * *'
 
 jobs:
   # build为job名称
